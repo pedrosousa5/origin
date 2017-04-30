@@ -10,9 +10,8 @@ How is the staging area different from the working directory and the repository?
 The Staging area is where the files selected by you from your Working Directory to have their history saved on your next commit, so that information will then be saved in your Repository.
 A great value of the Staging are is that you may select which files from your working directory will be used on your next commit, it gives you control of which files you want to take a snapshot (commit) at that point which means it might be a single file or even the whole lot of files in your working directory.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
-
+How can you use the staging area to make sure you have one commit per logical change?
+by adding to the it only the affected files on that particular change, so when you commit, it will only have files related to the curretn Logical Change.
 
 
 What are some situations when branches would be helpful in keeping your history
