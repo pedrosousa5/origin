@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+
+Fairly easy but I expected it to be a little bit clearer.
+
+
+
+How could having easy access to the entire history of a file make you a more
+ efficient programmer in the long term?
+
+
+It's a very useful tool when the developing cycle is undergoing due to many ocasions when you need to go back to a certain point where your code was better in any particular way.
+
+What do you think are the pros and cons of manually choosing when to create a 
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+
+The main Pro is that it would be down to the user (programmer) to judge when to commit instead ofa a generic rule for comitting so the commits would be more accurate if the programmer has a good understand of when to commit but that leaves a chance for failure if the user is not organized or simply not used to commiting as he progresses with his work, so in this case we might not get enough commits alog the developing process.
+
+Why do you think some version control systems, like Git, allow saving multiple
+ files in one commit, while others, like Google Docs, treat each file separately?
+
+
+The main thing would be the Purpose. Git is made for programming so it has this special feature when the other Version Controls are generic, they are for all sorts of projects (texts).
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+well, by using command git log you will be presented the whole log of the depository and with the git diff you can compare two different commits by their ids.
+
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+
+It makes you more confident when you know that you can go back to a certain stage of coding when the code was right at any time.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+
+For the course and my future projetcs.
