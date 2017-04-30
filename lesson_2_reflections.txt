@@ -14,11 +14,8 @@ How can you use the staging area to make sure you have one commit per logical ch
 by adding to the it only the affected files on that particular change, so when you commit, it will only have files related to the curretn Logical Change.
 
 
-What are some situations when branches would be helpful in keeping your history
- organized?
-
-How would branches help?
-
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When trying out a new feature, or an experimental change to your project and you want to leave the code as it is (intact as it's working perfectly) so creating a branch would be ideal, so you have the master (original) intact and start working on the experimental change aside.
 
 
 How do the diagrams help you visualize the branch structure?
