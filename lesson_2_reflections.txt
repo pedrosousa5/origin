@@ -1,0 +1,37 @@
+What happens when you initialize a repository?
+Git creates a folder named .git for the commits meta data.
+
+Why do you need to do it?
+To keep track of our files history - commits.
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The Staging area is where the files selected by you from your Working Directory to have their history saved on your next commit, so that information will then be saved in your Repository.
+A great value of the Staging are is that you may select which files from your working directory will be used on your next commit, it gives you control of which files you want to take a snapshot (commit) at that point which means it might be a single file or even the whole lot of files in your working directory.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+
+
+What are some situations when branches would be helpful in keeping your history
+ organized?
+
+How would branches help?
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+
+
+What is the result of merging two branches together?
+
+Why do we represent it in
+the diagram the way we do?
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
