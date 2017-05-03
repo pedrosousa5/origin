@@ -19,15 +19,15 @@ When trying out a new feature, or an experimental change to your project and you
 
 
 How do the diagrams help you visualize the branch structure?
-
+It's a lot easier to keep track of the work flow with diagrams, after you've seen a digram your tree of branches comes to live.
 
 
 What is the result of merging two branches together?
+It's like a croswroad coming to a single road, you take two paths and mix them up, becoming a single path (branch) keeping everything that is relevant for both and git does in a nice fashionable way and also tells you if it couldnt decide if "somthing" (a piece of code - part of the file) should be kept or not, it would state a conflict so you can decide for yourself if you want to keep it or discard it.
 
-Why do we represent it in
-the diagram the way we do?
+Why do we represent it in the diagram the way we do?
+Because like answered on the previous question it is two paths becoming one.
 
 
-
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It saves you a lot of time and work in most cases, when the merging happens smoothly and you're left with only the conflicts to sort out, if there's any.
