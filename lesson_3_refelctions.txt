@@ -11,3 +11,6 @@ Branch is a work flow, so every repository has at least one branch (master) but 
 A fork is used when you are editing someone's already started work so you're allowed to fork it to your repository and and then you can edit and submit your changes (commits).
 A clone is the process of bringing it to you local machine to work on the files that can't be updated straight from Github (code).
 A branch is when you have a new feature on your project and you want to keep the master intact while working on that new feature or and experimental change.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+So you can avoid conflicts when pushing into the remote.
