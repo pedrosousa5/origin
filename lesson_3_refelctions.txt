@@ -1,19 +1,47 @@
-1. When would you want to use a remote repository rather than keeping all your work local?
-When working in a project along with some other contributor, sharing a project.
+1. When would you want to use a remote repository rather than keeping
+ all your work local?
+When working in a project along with some other contributor, sharing 
+a project.
 
-2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-Again, when you do this process manually you~re in control of whats being manipulated, you can decide for yourself what's important and need to be updated.
+2. Why might you want to always pull changes manually rather than 
+having Git automatically stay up-to-date with your remote repository?
+Again, when you do this process manually you~re in control of whats
+being manipulated, you can decide for yourself what's important and
+need to be updated.
 
-3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
-Forks are copies with GitHub - you might copy (clone) a repository from GitHub directly to another GitHub Repository (remote).
-Clones are copies made from gitHub to your local computer, basically dowloading a repository from Github.
-Branch is a work flow, so every repository has at least one branch (master) but many can be created for many different reasons in the same depository.
-A fork is used when you are editing someone's already started work so you're allowed to fork it to your repository and and then you can edit and submit your changes (commits).
-A clone is the process of bringing it to you local machine to work on the files that can't be updated straight from Github (code).
-A branch is when you have a new feature on your project and you want to keep the master intact while working on that new feature or and experimental change.
+3. Describe the differences between forks, clones, and branches. When
+would you use one instead of another?
+Forks are copies with GitHub - you might copy (clone) a repository
+from GitHub directly to another GitHub Repository (remote).
+Clones are copies made from gitHub to your local computer, basically
+ dowloading a repository from Github.
+Branch is a work flow, so every repository has at least one branch 
+(master) but many can be created for many different reasons in the 
+same depository.
+A fork is used when you are editing someone's already started work so
+ you're allowed to fork it to your repository and and then you can 
+ edit and submit your changes (commits).
+A clone is the process of bringing it to you local machine to work on
+the files that can't be updated straight from Github (code).
+A branch is when you have a new feature on your project and you want 
+to keep the master intact while working on that new feature or and 
+experimental change.
 
-4. What is the benefit of having a copy of the last known state of the remote stored locally?
+4. What is the benefit of having a copy of the last known state of
+the remote stored locally?
 So you can avoid conflicts when pushing into the remote.
 
-5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
-Using both. But to collaborate we do need GitHub which then needs Git, so I would use both.
+5. How would you collaborate without using Git or GitHub? What would 
+be easier, and what would be harder?
+Using both. But to collaborate we do need GitHub which then needs 
+Git, so I would use both.
+
+6. When would you want to make changes in a separate branch rather 
+than directly in master? What benefits does each approach have?
+When it's an experimental change or it's a part of a project, so
+there's more people collaborating to the master, so each one would
+work on a different feature (branch) at the same time leaving the
+master intact. This apprach is ideal for collaborating, so the changes
+can be checked by other users before adding it to the master branch.
+I would say that this approach is not so recommended or that it
+doesn't much sense when working on your own at your local machine.
